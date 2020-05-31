@@ -1,8 +1,9 @@
-//Ninjatrader 8 C# code for saving price/time values (coordinates) of each mouse right click on the chart.
-//This is a tool developed to help backtesting patterns in the any market.
-//Instead of typing dates and prices to Excel spreadsheet this will save data to .txt file seperated with commas.
-//Once ready, open .txt and import to Excel .csv using special Paste with comma separated text.
-//Super easy to use and greatly increases backtesting speed, efficiency and data correctness.
+/// I have developed this tool to help me backtest startegies in Ninja Trader 8 platform. 
+/// It is a simple tool which records time or price values at a click of the mouse to text file and is seperated by commas. 
+/// Once a number of points have been recorded this can easily be transfered to Excel spreadsheet for further analysis.
+/// Using this tool is a more efficient way of backtesting as you do not need to manually enter each price or time value.
+/// This has saved me a lot of time when backtesting and also greatly reduced typo errors in the spreadsheet.
+/// This tool cn be modified to what each point records, also the amount of clicks your strategy requires.
 
 #region Using declarations
 using System;
